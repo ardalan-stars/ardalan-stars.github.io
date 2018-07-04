@@ -1,0 +1,474 @@
+@font-face {
+	font-family: 'IranSans-Bold';
+	src: url('https://files.rtl-theme.com/theme/assets/fonts/woff2/IRANSansWeb_Bold.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'IranSans-Medium';
+	src: url('https://files.rtl-theme.com/theme/assets/fonts/woff2/IRANSansWeb.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  direction:rtl;
+}
+
+body {
+  font-family: 'IranSans-Medium';
+}
+
+
+
+hr {
+  max-width: 50px;
+  border-width: 3px;
+  border-color: ad14b7;
+}
+
+hr.light {
+  border-color: #fff;
+}
+
+a {
+  color: white;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  text-decoration: none;
+}
+
+a:hover {
+  color:white;
+  text-decoration: none;
+}
+#down-link:hover{
+  color:purple;
+}
+.md{
+	bottom:0px;
+}
+
+#about{
+	background-image: url("../img/manager.jpg");
+	
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position:top-right;
+	padding-top:50px;
+	padding-bottom:20px;
+    text-shadow: 2px 2px 2px black;
+	/* height:100px; */
+}
+
+@media (min-width: 992px) {
+
+#about{
+	position:center-right;
+}	
+	
+}
+
+#items{
+	font-family: 'IranSans-Bold';
+	font-size:20px;
+}
+
+#services{
+	padding-top:100px;
+	padding-bottom:100px;
+	background-image: url("../img/pattern.jpg");
+	background-origin: content-box;
+}
+
+#train{
+	background-image: url("../img/svg/training-1.svg");
+	width:100px;
+	height:100px;
+}
+
+#train:hover{
+	background-image: url("../img/svg/training.svg");
+}
+
+#fc{
+	background-image: url("../img/svg/football.svg");
+	width:100px;
+	height:100px;
+}
+
+#fc:hover{
+	background-image: url("../img/svg/football-1.svg");
+}
+
+#gk{
+	background-image: url("../img/svg/goalie.svg");
+	width:100px;
+	height:100px;
+}
+
+#gk:hover{
+	background-image: url("../img/svg/goalie-1.svg");
+}
+
+#shirt{
+	background-image: url("../img/svg/football-jersey.svg");
+	width:100px;
+	height:100px;
+}
+
+#shirt:hover{
+	background-image: url("../img/svg/football-jersey-1.svg");
+}
+
+#phone{
+	background-image: url("../img/svg/cell-phone.svg");
+	width:50px;
+	height:50px;
+}
+
+#telegram{
+	background-image: url("../img/svg/telegram.svg");
+	width:50px;
+	height:50px;
+}
+
+#title1{
+	font-family: 'IranSans-Bold';
+}
+
+#title2{
+	font-family: 'IranSans-Bold';
+	font-size:15px;
+}
+
+#text1{
+	color:#e0e0e0;
+	font-size:20px;
+}
+
+#contact{
+	background-image: url("../img/pattern.jpg");
+}
+
+.ltr{
+	direction:ltr;
+}
+
+.portfolio-box-caption{
+	background-color:purple;
+}
+
+.my{
+	background-color:purple;
+	color:purple;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'IranSans-Bold';
+}
+
+.bg-primary {
+  background-color: #F05F40 !important;
+}
+
+.bg-dark {
+  background-color: #212529 !important;
+}
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+section {
+  padding: 8rem 0;
+}
+
+.section-heading {
+  margin-top: 0;
+}
+
+::-moz-selection {
+  color: #fff;
+  background: #212529;
+  text-shadow: none;
+}
+
+::selection {
+  color: #fff;
+  background: #212529;
+  text-shadow: none;
+}
+
+img::selection {
+  color: #fff;
+  background: transparent;
+}
+
+img::-moz-selection {
+  color: #fff;
+  background: transparent;
+}
+
+#mainNav {
+  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+  background-color: #fff;
+  font-family: 'IranSans-Medium';
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  background-color: transparent;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #b00fbf;
+  font-family: 'IranSans-Bold';
+  background-image: url("../img/logotype.png");
+  background-repeat: no-repeat;
+  width:168px;
+  height:32px;
+  opacity:0;
+}
+
+#mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #b00fbf;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+  font-size: .9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #b00fbf;
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+  color: #b00fbf;
+  
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active {
+  color: #b00fbf !important;
+  
+}
+
+#mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover,
+#mainNav .navbar-nav > li.nav-item > a.nav-link:focus.active:hover {
+}
+
+
+ #mainNav.navbar-shrink {
+    background-color: #fff;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    opacity:1;
+  }
+
+
+@media (min-width: 992px) {
+  #mainNav {
+    border-color: transparent;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+	background-image: url("../img/monogram.png");
+	width:33px;
+	height:31;
+	opacity:1;
+  }
+  #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+    color: #fff;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link {
+    padding: 0.5rem 1rem;
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: #fff;
+  }
+  #mainNav.navbar-shrink {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: #fff;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    background-image: url("../img/logotype.png");
+	width:168px;
+	height:32px;
+  }
+  #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
+    color: #f05f40;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
+    color: #a17c3d;
+  }
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:hover,
+  #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus:hover {
+    color: black;
+  }
+}
+
+header.masthead {
+  padding-top: 30rem;
+  padding-bottom: calc(10rem - 56px);
+  background-image: url("../img/header.jpg");
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header.masthead hr {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+header.masthead h1 {
+  font-size: 2rem;
+}
+
+header.masthead p {
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.masthead h1 {
+    font-size: 4rem;
+  }
+}
+
+.service-box {
+  max-width: 400px;
+}
+
+.portfolio-box {
+  position: relative;
+  display: block;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.portfolio-box .portfolio-box-caption {
+  position: absolute;
+  bottom: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 0;
+  color: #fff;
+  background: rgba(136, 22, 146, 0.7);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  padding: 0 15px;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+  font-size: 18px;
+}
+
+.portfolio-box:hover .portfolio-box-caption {
+  opacity: 1;
+}
+
+.portfolio-box:focus {
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
+    font-size: 16px;
+  }
+  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
+    font-size: 22px;
+  }
+}
+
+.text-primary {
+  color: #F05F40 !important;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 300px;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background-color: #F05F40;
+  border-color: #F05F40;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  color: #fff;
+  background-color: #ee4b28 !important;
+}
+
+.btn-primary:active, .btn-primary:focus {
+  box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
